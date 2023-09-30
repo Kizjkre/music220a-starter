@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- Include JetBrains Mono font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <!--- include the Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--- link in some css formatting for the ACE editor -->
+    <link rel="stylesheet" href="https://ccrma.stanford.edu/~cc/220a/webchuck220a/css/editor.css">
+    <!--- link in CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!--- include the Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    <!--- include the ACE editor and our webchuck stuff -->
+    <script type="text/javascript" src="https://ccrma.stanford.edu/~cc/220a/webchuck220a/js/ace.js"
+            charset="utf-8"></script>
+    <script type="text/javascript" src="https://ccrma.stanford.edu/~cc/220a/webchuck220a/js/editor.js"></script>
+    <script src="script.js" defer type="module"></script>
+    <title>MUSIC 220A Starter</title>
+  </head>
+  <body>
+    <header class="bg-info-subtle px-4 py-5 mb-4 shadow text-center">
+      <h1>MUSIC 220A Starter</h1>
+    </header>
+    <main class="container mb-4">
+      <div class="row">
+        <div class="col text-center">
+          <div class="d-grid gap-2">
+            <div id="editor" class="ace_editor ace-chuck mx-2 my-4"></div>
+            <button id="action" class="btn btn-lg btn-outline-success">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
+                <path d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col">
+              <div class="card my-4 shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Censectetur adipiscing elit</h6>
+                  <p class="card-text">
+                    Tempora dolor reprehenderit vero natus explicabo repellendus quisquam fuga.
+                    Ipsa mollitia velit fuga.
+                    Aut ab at est dignissimos consequatur qui.
+                    Tempore aut dicta et optio maiores inventore.
+                    Consequatur eos consequatur illo maiores mollitia.
+                    Eaque rerum commodi alias dignissimos eaque iure alias corrupti.
+                  </p>
+                  <a href="https://youtu.be/dQw4w9WgXcQ" class="card-link">Nisi commodi</a>
+                  <a href="https://youtu.be/dQw4w9WgXcQ" class="card-link">Accusantium</a>
+                </div>
+              </div>
+              <div class="card my-4 shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title">We're no strangers to love</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">You know the rules and so do I</h6>
+                  <p class="card-text">
+                    A full commitment's what I'm thinking of;
+                    you wouldn't get this from any other guy.
+                    I just wanna tell you how I'm feeling.
+                  </p>
+                  <a href="https://youtu.be/dQw4w9WgXcQ" class="card-link">Gotta make you</a>
+                  <a href="https://youtu.be/dQw4w9WgXcQ" class="card-link">understand.</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card my-4 shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title">MUSIC 220A is the GOAT</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">bottom text</h6>
+                  <p class="card-text">
+                    MUSIC 220A is the GOAT for computer music nerds. It's the OG course for learning how to make sick beats and sound effects with computers. You'll learn about all the basics, like sound synthesis and digital signal processing, plus some more advanced stuff like psychoacoustics and algorithmic composition.
+                    <br><br>
+                    Taking MUSIC 220A is a total flex. It shows that you're down with the latest computer music trends and that you're not afraid to get your hands dirty. Plus, the skills you learn in this course are super transferable. You can use them to make your own music, design sound effects for movies and video games, or even create immersive virtual reality experiences.
+                    <br><br>
+                    So if you're thinking about becoming a computer music wizard, then MUSIC 220A is the course for you. It's totally fire and it's gonna teach you everything you need to know to make your dreams come true.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
